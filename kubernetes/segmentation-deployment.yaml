@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: segmentation-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: segmentation-app
+  template:
+    metadata:
+      labels:
+        app: segmentation-app
+    spec:
+      containers:
+      - name: segmentation-app
+        image: <YOUR_IMAGE_NAME>:latest  # Replace with your Docker image name
+        ports:
+        - containerPort: 8501
+        resources:
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
