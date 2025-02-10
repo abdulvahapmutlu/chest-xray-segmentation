@@ -29,6 +29,63 @@ This project implements a chest X-ray segmentation model using a Swin Transforme
 
 ---
 
+## Scripts
+
+The `scripts/` folder contains modular components for the entire training and evaluation pipeline. Here is an overview of each script:
+
+- **data.py**  
+  Contains custom dataset classes and transformation pipelines for chest X-ray segmentation.  
+  **Key Classes:**  
+  - `ChestXRayDataset`: Loads images and their corresponding masks from specified directories.  
+  - `JointTransformWrapper`: Applies transformations (resizing, normalization, random horizontal flips, etc.) simultaneously to both images and masks.
+
+- **model.py**  
+  Defines the segmentation model architecture.  
+  **Components:**  
+  - `SimpleDecoder`: A UNet-like decoder without attention blocks using skip connections and transposed convolutions.  
+  - `SwinTransformerSegModel`: Integrates a pretrained Swin Transformer encoder with the custom decoder for segmentation.
+
+- **losses.py**  
+  Contains loss functions and metric calculations for training and evaluation.  
+  **Functions:**  
+  - `dice_loss` and `ComboLoss`: Compute the weighted combination of BCE and Dice loss.  
+  - Metrics such as `dice_coefficient`, `iou_coefficient`, and functions for confusion matrix computation and additional performance metrics.
+
+- **utils.py**  
+  Provides utility functions to support data loading and time formatting.  
+  **Functions:**  
+  - `create_dataloaders`: Creates dataloaders for training, validation, and test sets.  
+  - `format_time`: Converts seconds into an hh:mm:ss formatted string.
+
+- **train.py**  
+  Implements the complete training loop for the segmentation model.  
+  **Features:**  
+  - Loads and splits the dataset into training, validation, and test sets.  
+  - Trains the model with early stopping and learning rate scheduling.  
+  - Saves the best model weights and plots training curves.  
+  **Usage Example:**  
+  ```
+  python scripts/train.py --dataset_path <path_to_dataset> --epochs 20 --batch_size 4 --output_dir outputs
+  ```
+
+- **evaluate.py**  
+  Evaluates a saved model on the test set and prints out performance metrics (loss, Dice, IoU, accuracy, etc.).  
+  **Usage Example:**  
+  ```
+  python scripts/evaluate.py --dataset_path <path_to_dataset> --model_path <path_to_model_weights> --batch_size 4
+  ```
+
+- **visualize.py**  
+  Provides functions to visualize model predictions alongside ground truth and overlayed masks.  
+  **Usage Example:**  
+  ```
+  python scripts/visualize.py --dataset_path <path_to_dataset> --batch_size 4
+  ```
+
+These scripts provide a modular and scalable framework to train, evaluate, and visualize your chest X-ray segmentation model.
+
+---
+
 ## Installation
 
 ### Prerequisites
