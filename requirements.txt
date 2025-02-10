@@ -1,0 +1,7 @@
+streamlit
+torch
+timm
+torchvision
+Pillow
+opencv-python
+numpy
