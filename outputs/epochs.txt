@@ -1,0 +1,109 @@
+Epoch [1/20] (LR: 0.000100)
+  Train Loss: 0.3892
+  Val Loss:   0.1278 | Dice: 0.9088 | IoU: 0.8345
+  Accuracy: 0.9584, Precision: 0.9664, Recall: 0.8618, Specificity: 0.9901, F1: 0.9111
+  Time Elapsed: 0:02:26 | Epoch Time: 0:02:26 | Est. Remaining: 0:46:25
+
+Epoch [2/20] (LR: 0.000100)
+  Train Loss: 0.0941
+  Val Loss:   0.0724 | Dice: 0.9467 | IoU: 0.8999
+  Accuracy: 0.9748, Precision: 0.9582, Recall: 0.9390, Specificity: 0.9866, F1: 0.9485
+  Time Elapsed: 0:04:36 | Epoch Time: 0:02:10 | Est. Remaining: 0:41:31
+
+Epoch [3/20] (LR: 0.000100)
+  Train Loss: 0.0720
+  Val Loss:   0.0673 | Dice: 0.9474 | IoU: 0.9011
+  Accuracy: 0.9751, Precision: 0.9494, Recall: 0.9499, Specificity: 0.9834, F1: 0.9496
+  Time Elapsed: 0:06:45 | Epoch Time: 0:02:08 | Est. Remaining: 0:38:18
+
+Epoch [4/20] (LR: 0.000100)
+  Train Loss: 0.0664
+  Val Loss:   0.0647 | Dice: 0.9498 | IoU: 0.9055
+  Accuracy: 0.9763, Precision: 0.9696, Recall: 0.9334, Specificity: 0.9904, F1: 0.9512
+  Time Elapsed: 0:08:55 | Epoch Time: 0:02:09 | Est. Remaining: 0:35:41
+
+Epoch [5/20] (LR: 0.000100)
+  Train Loss: 0.0619
+  Val Loss:   0.0593 | Dice: 0.9548 | IoU: 0.9146
+  Accuracy: 0.9786, Precision: 0.9618, Recall: 0.9510, Specificity: 0.9876, F1: 0.9564
+  Time Elapsed: 0:11:05 | Epoch Time: 0:02:09 | Est. Remaining: 0:33:16
+
+Epoch [6/20] (LR: 0.000100)
+  Train Loss: 0.0595
+  Val Loss:   0.0607 | Dice: 0.9524 | IoU: 0.9101
+  Accuracy: 0.9773, Precision: 0.9454, Recall: 0.9637, Specificity: 0.9817, F1: 0.9545
+  Time Elapsed: 0:13:13 | Epoch Time: 0:02:07 | Est. Remaining: 0:30:50
+
+Epoch [7/20] (LR: 0.000100)
+  Train Loss: 0.0542
+  Val Loss:   0.0568 | Dice: 0.9565 | IoU: 0.9176
+  Accuracy: 0.9792, Precision: 0.9577, Recall: 0.9580, Specificity: 0.9861, F1: 0.9579
+  Time Elapsed: 0:15:20 | Epoch Time: 0:02:07 | Est. Remaining: 0:28:30
+
+Epoch [8/20] (LR: 0.000100)
+  Train Loss: 0.0512
+  Val Loss:   0.0561 | Dice: 0.9570 | IoU: 0.9185
+  Accuracy: 0.9793, Precision: 0.9549, Recall: 0.9616, Specificity: 0.9851, F1: 0.9582
+  Time Elapsed: 0:17:28 | Epoch Time: 0:02:08 | Est. Remaining: 0:26:13
+
+Epoch [9/20] (LR: 0.000100)
+  Train Loss: 0.0479
+  Val Loss:   0.0569 | Dice: 0.9572 | IoU: 0.9190
+  Accuracy: 0.9794, Precision: 0.9589, Recall: 0.9577, Specificity: 0.9865, F1: 0.9583
+  Time Elapsed: 0:19:33 | Epoch Time: 0:02:04 | Est. Remaining: 0:23:54
+
+Epoch [10/20] (LR: 0.000100)
+  Train Loss: 0.0468
+  Val Loss:   0.0573 | Dice: 0.9573 | IoU: 0.9191
+  Accuracy: 0.9795, Precision: 0.9571, Recall: 0.9602, Specificity: 0.9859, F1: 0.9587
+  Time Elapsed: 0:21:35 | Epoch Time: 0:02:02 | Est. Remaining: 0:21:35
+
+Epoch [11/20] (LR: 0.000050)
+  Train Loss: 0.0438
+  Val Loss:   0.0599 | Dice: 0.9525 | IoU: 0.9103
+  Accuracy: 0.9773, Precision: 0.9602, Recall: 0.9474, Specificity: 0.9871, F1: 0.9538
+  Time Elapsed: 0:23:35 | Epoch Time: 0:02:00 | Est. Remaining: 0:19:18
+
+Epoch [12/20] (LR: 0.000050)
+  Train Loss: 0.0407
+  Val Loss:   0.0558 | Dice: 0.9591 | IoU: 0.9226
+  Accuracy: 0.9805, Precision: 0.9624, Recall: 0.9585, Specificity: 0.9877, F1: 0.9604
+  Time Elapsed: 0:25:39 | Epoch Time: 0:02:03 | Est. Remaining: 0:17:06
+
+Epoch [13/20] (LR: 0.000050)
+  Train Loss: 0.0385
+  Val Loss:   0.0552 | Dice: 0.9597 | IoU: 0.9235
+  Accuracy: 0.9806, Precision: 0.9644, Recall: 0.9570, Specificity: 0.9884, F1: 0.9607
+  Time Elapsed: 0:27:40 | Epoch Time: 0:02:00 | Est. Remaining: 0:14:53
+
+Epoch [14/20] (LR: 0.000050)
+  Train Loss: 0.0376
+  Val Loss:   0.0554 | Dice: 0.9590 | IoU: 0.9222
+  Accuracy: 0.9805, Precision: 0.9712, Recall: 0.9492, Specificity: 0.9908, F1: 0.9601
+  Time Elapsed: 0:29:39 | Epoch Time: 0:01:59 | Est. Remaining: 0:12:42
+
+Epoch [15/20] (LR: 0.000050)
+  Train Loss: 0.0359
+  Val Loss:   0.0582 | Dice: 0.9590 | IoU: 0.9223
+  Accuracy: 0.9803, Precision: 0.9612, Recall: 0.9591, Specificity: 0.9873, F1: 0.9602
+  Time Elapsed: 0:31:39 | Epoch Time: 0:01:59 | Est. Remaining: 0:10:33
+
+Epoch [16/20] (LR: 0.000025)
+  Train Loss: 0.0344
+  Val Loss:   0.0560 | Dice: 0.9603 | IoU: 0.9246
+  Accuracy: 0.9809, Precision: 0.9625, Recall: 0.9604, Specificity: 0.9877, F1: 0.9614
+  Time Elapsed: 0:33:40 | Epoch Time: 0:02:00 | Est. Remaining: 0:08:25
+
+Epoch [17/20] (LR: 0.000025)
+  Train Loss: 0.0327
+  Val Loss:   0.0576 | Dice: 0.9602 | IoU: 0.9245
+  Accuracy: 0.9810, Precision: 0.9727, Recall: 0.9500, Specificity: 0.9912, F1: 0.9612
+  Time Elapsed: 0:35:39 | Epoch Time: 0:01:59 | Est. Remaining: 0:06:17
+
+Epoch [18/20] (LR: 0.000025)
+  Train Loss: 0.0326
+  Val Loss:   0.0565 | Dice: 0.9601 | IoU: 0.9244
+  Accuracy: 0.9810, Precision: 0.9681, Recall: 0.9545, Specificity: 0.9897, F1: 0.9612
+  Time Elapsed: 0:37:40 | Epoch Time: 0:02:00 | Est. Remaining: 0:04:11
+
+Early stopping triggered!
